@@ -1,0 +1,192 @@
+{
+   "name": "test map: default tile & floating tiles",
+   "mapID": 0,
+   "author": "Niels Groot Obbink",
+
+   "defaultTile":
+   {
+      "ground": 1
+   },
+
+   "map":
+   [
+      [{"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1, "item":3, "onscreen":2}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "floating": 6}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item": 7, "solid": 1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":10, "onscreen":1}, {"ground":1, "item":2, "solid":1}, {"ground":1}, {"ground":1}, {"ground":1}, {"ground":1, "item":2, "solid":1}],
+      [{"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}, {"ground":1, "item":2, "solid":1}]
+   ],
+
+   "tile":
+   [
+      {
+         "id": 0,
+         "src": "images/tile_black.png"
+      },
+      {
+         "id": 1,
+         "src": "images/tile_grass.png"
+      },
+      {
+         "id": 2,
+         "src": "images/tile_rock.png"
+      },
+      {
+         "id": 3,
+         "src": "images/flower_1.png"
+      },
+      {
+         "id": 4,
+         "src": "images/flower_2.png"
+      },
+      {
+         "id": 5,
+         "src": "images/flower_3.png"
+      },
+
+      {
+         "id": 6,
+         "src": "images/tree_1.png"
+      },
+      {
+         "id": 7,
+         "src": "images/tree_2.png"
+      },
+
+
+      {
+         "id": 10,
+         "src": "images/water1.png"
+      },
+      {
+         "id": 11,
+         "src": "images/water2.png"
+      },
+      {
+         "id": 12,
+         "src": "images/water3.png"
+      },
+      {
+         "id": 13,
+         "src": "images/water4.png"
+      },
+      {
+         "id": 14,
+         "src": "images/water5.png"
+      },
+      {
+         "id": 15,
+         "src": "images/water6.png"
+      },
+      {
+         "id": 16,
+         "src": "images/water7.png"
+      },
+      {
+         "id": 17,
+         "src": "images/water8.png"
+      }
+   ],
+
+   "animated":
+   [
+      {
+         "id": 0,
+         "tile": 10,
+         "script": 0
+      }
+
+   ],
+
+   "model":
+   [
+      {
+         "id": 0,
+         "name": "scientist"
+      },
+      {
+         "id": 1,
+         "name": "officer"
+      }
+   ],
+
+   "script":
+   [
+      {
+
+         "id": 0,
+         "data": "
+                  engine.animated.list[0].tile++;
+
+                  if(engine.animated.list[0].tile == 18)
+                  {
+                     engine.animated.list[0].tile = 10;
+                  }
+         "
+      },
+      {
+         "id": 1,
+         "data": "
+                  engine.map.list[engine.map.current][context.y][context.x].ground = engine.animated.list[0].tile;
+                  engine.tile.draw(context.tx, context.ty, context);
+                 "
+      },
+      {
+         "id": 2,
+         "data": "
+                  var m = engine.map.list[engine.map.current][context.y][context.x];
+                  switch(m.item)
+                  {
+                     case 3:  m.item = 4;  break;
+                     case 4:  m.item = 5;  break;
+                     case 5:  m.item = 3;  break;
+                  }
+                 engine.tile.draw(context.tx, context.ty, context);
+                 "
+      },
+      {
+         "id": 3,
+         "data": "
+                  alert('Heya!');
+         "
+      },
+      {
+         "id": 4,
+         "data": "
+                  var r = Math.floor(Math.random() * 4);
+
+                  switch(r)
+                  {
+                     case 0: engine.npc.walk(context.id, 'up');    break;
+                     case 1: engine.npc.walk(context.id, 'down');  break;
+                     case 2: engine.npc.walk(context.id, 'left');  break;
+                     case 3: engine.npc.walk(context.id, 'right'); break;
+                  }
+         "
+      }
+   ],
+
+
+   "npc":
+   [
+      {
+         "id": 0,
+         "model": 1,
+         "x": 7,
+         "y": 3,
+         "onactivate": 3,
+         "onidle": 4
+      }
+   ]
+
+}
+
