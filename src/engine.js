@@ -1,6 +1,12 @@
 var engine = {};
 
-
+/**
+ * var entityManager = new EntityManager();
+ * -> function Engine() {
+ *  ...
+ * this.output = function(message) {---}
+ * }
+ */
 
 engine.outhnd = document.getElementById('output');
 engine.canvas = document.getElementById('canvas');

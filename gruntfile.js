@@ -2,9 +2,15 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        clean: {
+            build: {
+                src: ['dist']
+            }
+        },
         concat: {
             options: {
-                separator: ';'
+                separator: ';',
+                banner: '/*! <%= pkg.name %> <%= grunt.template.today("h:MM:ss dd-mm-yyyy") %> */\n'                
             },
             dist: {
                 src: ['src/**/*.js'],
@@ -13,7 +19,7 @@ module.exports = function(grunt) {
         },
         uglify: {
             options: {
-                banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+                banner: '/*! <%= pkg.name %> <%= grunt.template.today("h:MM:ss dd-mm-yyyy") %> */\n'
             },
             dist: {
                 files: {
@@ -41,9 +47,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-clean');
   
     grunt.registerTask('test', ['jshint', 'jasmine']);
   
-    grunt.registerTask('default', ['jshint', 'jasmine', 'concat', 'uglify']);
-    grunt.registerTask('build', ['concat','uglify']);
+    grunt.registerTask('default', ['jshint', 'jasmine','clean', 'concat', 'uglify']);
+    grunt.registerTask('build', ['clean:build', 'concat', 'uglify']);
   };
